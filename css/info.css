@@ -1,0 +1,20 @@
+#info {
+	background: #8AA9BE;
+	color: #fff;
+	text-align: center; 
+	padding: 20px;
+}
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.simulador {
+	margin: 20px;
+}
+.simulador img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}

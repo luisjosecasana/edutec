@@ -1,0 +1,28 @@
+
+section img {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	float: left;
+}
+img{
+	max-width: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 50px;
+}
+.espacio-abajo{
+	margin-bottom: 20px;
+}
+@media (max-width:768px){
+	section img {
+		display: block;
+		width: 60px;
+		height: 60px;
+		padding: 10px;
+		float: right;
+	}
+}

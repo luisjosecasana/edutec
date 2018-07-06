@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viwport" content="with=device-with, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/image.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:900i" rel="stylesheet">
+	<title>Formulario de Contacto</title>
+</head>
+<body>
+	<header>
+		<input type="checkbox" id="btn-menu">
+		<label for="btn-menu"><img src="images/lines.png" alt=""></label>
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="menu.html">Menú</a></li>
+				<li><a href="acercade.html">Nosotros</a></li>
+			</ul>
+		</nav>		
+	</header>	
+	<form action="enviar.php" method="post">
+		<h2>Registre sus Datos</h2>
+		<input type="text" name="nombre" placeholder="Nombre" required="">
+		<input type="text" name="apellido" placeholder="Apellido" required="">
+		<input type="text" name="correo" placeholder="Correo" required="">
+		<input type="text" name="telefono" placeholder="Teléfono" required="">
+		<textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+		<input type="submit" value="Enviar" id="boton">
+	</form>
+</body>
+</html>
