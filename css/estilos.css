@@ -125,6 +125,7 @@ footer .pie {
 	#registo {
 		width: 50%;
 		float: right;
+		padding-top: 20px;
 	}
 	form {
 		float: right;
@@ -132,9 +133,10 @@ footer .pie {
 	}
 	#ubicacion {	
 		margin-top: 130px;
+		padding-top: 20px;
 		margin-bottom: -50px;
 		width: 50%;
-		height: 687px;
+		height: 650px;
 		float: left;
 		background: #8AA9BE;
 	}
