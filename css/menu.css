@@ -5,13 +5,20 @@
 header label {
 	float: right;
 	font-size: 30px; /*tamaño de letra*/
-	margin: 10px 5px;
+	margin: 5px 5px;
 	cursor: pointer; /*cambio al pasar el mouse*/
+}
+
+#buscador {
+	padding-top: 15px;
+	padding-right: 15px;
+	width: 100%
+	background: rgba(0,0,0,0.1);
 }
 
 .menu {
 	position: absolute;
-	top: 56px;
+	top: 128px;
 	left: 0;
 	width: 100%;
 	height: 100vh;
@@ -22,6 +29,7 @@ header label {
 
 .menu a {
 	display: block;
+	font-size: 20px;
 	color: #fff;
 	height: 50px;
 	text-decoration: none;
@@ -36,24 +44,25 @@ header label {
 	transform: translateX(0%);
 }
 
+#logo {
+	float: left;
+	max-width: 100%;
+	height: 50px;
+	margin-top: 5px;
+}
+
 #logo img {
 	float: left;
 }
 
-#logo {
-	max-width: 100%;
-	height: 40px;
-	float: left;
-	margin-top: 10px;
-}
-
 #logo h1 {
-	margin-left: 5px;
+	float: left;
+	margin-left: 5px;	
 }
-
 
 @media (min-width: 1024px) {
 	.menu {
+		margin-top: 5px;
 		position: static;
 		width: auto;
 		height: auto;
@@ -64,6 +73,7 @@ header label {
 
 	.menu a {
 		border: none;
+		font-size: 18px;
 	}
 
 	header label {
@@ -79,5 +89,11 @@ header label {
 	}
 	#logo h1 {
 		display: none;
+	}	
+}
+
+@media (min-width: 500px) {
+	#buscador {
+		width: 60%;
 	}
 }

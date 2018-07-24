@@ -1,0 +1,35 @@
+
+
+#var img {
+	width: 100%;
+	height: 100%;
+}
+
+#bienvenido {
+	margin-top: 0px;
+	width: 100%;
+	height: 800px;
+	background: #F1F1F1;
+}
+
+#bienvenido p {
+	text-align: justify;
+	font-size: 16px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #0876AD;
+	top: 20%;
+}
+
+#bienvenido .contenedor {
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+.contenedor h2 {
+	color: #21A4D3;
+	text-align: center;
+}

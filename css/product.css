@@ -1,5 +1,16 @@
+#product {
+	margin-top: -22px;
+	padding: 10px;
+}
 #product h3, h4 {
 	text-align: center;
+	color: #092675;
+	font-size: 26px;
+}
+#product h4 {
+	text-align: center;
+	color: #092675;
+	font-size: 18px;
 }
 
 #product .contenedor{

@@ -1,13 +1,25 @@
+body {
+	margin-bottom: 0;
+}
 #info {
+	margin: auto;
+	margin-top: 50px;
+	width: 100%;
 	background: #8AA9BE;
 	color: #fff;
+	margin-bottom: 20px;
 	text-align: center; 
 	padding: 20px;
+	font-size: 22px;
 }
 #info .contenedor {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.contenedor h4 {
+	font-size: 18px;
 }
 .simulador {
 	margin: 20px;
