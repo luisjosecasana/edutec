@@ -87,7 +87,7 @@ footer .pie {
 	color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 658px) {
 	
 	form {
 		width: 100%;
@@ -95,7 +95,7 @@ footer .pie {
 	}
 }
 
-@media (min-width: 500px) {
+@media (min-width: 659px) {
 	#registro {
 		width: 100%;
 		background: #8AA9BE;
