@@ -25,8 +25,15 @@ body {
 	margin: 20px;
 }
 .simulador img {
-	width: 180px;
-	height: 180px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 	border: 5px solid #fff;
+}
+
+@media (min-width: 1024px) {
+	#info {
+		margin: auto;
+		width: 80%;
+	}
 }

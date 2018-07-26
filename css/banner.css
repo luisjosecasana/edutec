@@ -104,3 +104,9 @@
 		left: 50%;	
 	}	
 }
+
+@media (min-width: 1024px) {
+	#banner {
+		width: 80%;
+	}
+}

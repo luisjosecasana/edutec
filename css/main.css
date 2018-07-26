@@ -84,3 +84,10 @@ div.row{
 div.container-fluid{
    padding-right: 0px;
 }
+
+@media (min-width: 1024px) {
+	#bienvenidos {
+		width: 80%;
+		margin: auto;
+	}
+}

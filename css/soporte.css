@@ -1,5 +1,4 @@
 
-
 #var img {
 	width: 100%;
 	height: 100%;
@@ -14,7 +13,7 @@
 
 #bienvenido p {
 	text-align: justify;
-	font-size: 16px;
+	font-size: 18px;
 	padding-top: 30px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -32,4 +31,12 @@
 .contenedor h2 {
 	color: #21A4D3;
 	text-align: center;
+	padding-top: 30px;
+}
+
+@media (min-width: 1024px) {
+	#bienvenido {
+		margin: auto;
+		width: 80%;
+	}
 }
