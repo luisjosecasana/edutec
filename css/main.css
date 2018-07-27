@@ -53,11 +53,21 @@ section {
 	margin-top: 0px;
 }
 #bienvenidos h2 {
+	color: #fff;	
 	margin-top: 24px;
 }
 #bienvenidos p {
 	font-size: 18px;
-
+	color: #fff;
+}
+#bienvenidos .iconos {
+	color: #fff;
+	margin: auto;
+	padding: 10px;
+	padding-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
 }
 
 footer .contenedor {
