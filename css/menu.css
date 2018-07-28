@@ -80,7 +80,7 @@ header label {
 		display: none;
 	}
 }
-@media (max-width: 659px) {
+@media (max-width: 868px) {
 	header label {
 		display: block;
 	}
@@ -92,7 +92,7 @@ header label {
 	}	
 }
 
-@media (min-width: 659px) {
+@media (min-width: 868px) {
 	#buscador {
 		width: 60%;
 	}

@@ -17,7 +17,7 @@ img{
 .espacio-abajo{
 	margin-bottom: 20px;
 }
-@media (max-width:768px){
+@media (max-width:658px){
 	section img {
 		display: block;
 		width: 60px;

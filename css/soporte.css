@@ -8,7 +8,7 @@
 	top: 0;
 	padding: 10px;
 	text-align: center;
-	height: 600px;
+	height: 400px;
 	width: 100%;
 	background: #F1F1F1;
 }
@@ -44,7 +44,7 @@
 	display: block;
 	max-width: 100%;
 	width: 100%;
-	height: 200px;
+	height: 260px;
 }
 .info_titulo {
 	letter-spacing: 1.5px;
@@ -55,17 +55,19 @@
 	font-size: 16px;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
+	#bienvenido {
+		height: 600px;
+	}
+}
+
+@media (min-width: 658px) {
 	.contenido {
 		display: flex;
 		justify-content: space-between;
 	}
-	.info_columna {
-		width: 32%;
-	}
-
 	#bienvenido {
-		height: 350px;
+		height: 320px;
 	}
 
 	#bienvenido p {
@@ -78,10 +80,13 @@
 	}
 }
 
-@media(min-width: 720px) {
+@media(min-width: 868px) {
 	
 	#blog h2 {
 		font-size: 40px;
+	}
+	.info_columna {
+		width: 32%;
 	}
 
 	#bienvenido {
