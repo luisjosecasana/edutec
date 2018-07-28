@@ -60,7 +60,7 @@ header label {
 	margin-left: 5px;	
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
 	.menu {
 		margin-top: 5px;
 		position: static;
@@ -80,7 +80,7 @@ header label {
 		display: none;
 	}
 }
-@media (max-width: 868px) {
+@media (max-width: 960px) {
 	header label {
 		display: block;
 	}
@@ -92,7 +92,7 @@ header label {
 	}	
 }
 
-@media (min-width: 868px) {
+@media (min-width: 960px) {
 	#buscador {
 		width: 60%;
 	}

@@ -61,7 +61,7 @@
 	}
 }
 
-@media (min-width: 658px) {
+@media (min-width: 720px) {
 	.contenido {
 		display: flex;
 		justify-content: space-between;
@@ -80,7 +80,7 @@
 	}
 }
 
-@media(min-width: 868px) {
+@media(min-width: 960px) {
 	
 	#blog h2 {
 		font-size: 40px;
@@ -99,7 +99,7 @@
 	}	
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
 	#bienvenido {
 		margin: auto;
 		width: 80%;

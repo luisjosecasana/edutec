@@ -83,7 +83,7 @@
 	border: 2px solid white;
 }
 
-@media (min-width: 658px) {
+@media (min-width: 720px) {
 	#banner h2 {
 		font-size: 35px;
 	}
@@ -93,7 +93,7 @@
 	}
 }
 
-@media (min-width: 868px) {
+@media (min-width: 960px) {
 	#banner {
 		position: relative;
 	}
@@ -108,7 +108,7 @@
 	}		
 }
 
-@media (max-width: 868px) {
+@media (max-width: 960px) {
 	#banner .contenedor {
 		position: absolute;
 		top: 60%;
