@@ -3,7 +3,7 @@
 }
 
 .aviso {
-	margin-top: 105px;
+	margin-top: 130px;
 	padding: 20px;
 	width: 100%;
 	background: #002127;
@@ -22,7 +22,7 @@
 }
 
 #categoria {
-	margin-top: 0;
+	margin-top: -20px;
 	width: 100%;
 	padding: 20px;
 	background: #F0F4F4;
@@ -73,7 +73,7 @@
 		display: block;
 		float: right;
 		width: 70%;
-		margin-top: 105px;
+		margin-top: 130px;
 	}
 	.foto img {
 		width: 100%;
